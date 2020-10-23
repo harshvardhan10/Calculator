@@ -1,0 +1,42 @@
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2016/07/06/15/29/math-1500720__340.jpg");
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #a3c2c2;
+}
+
+td{
+    border: 1px solid black;
+}
+
+#display{
+    width: 300px;
+    border: 1px solid black;
+    height: 80px;
+}
+
+#buttons{
+    width: 300px;
+    border: 1px solid black;
+    height: 320px;
+}
+
+input[type = "text"]{
+    height: 100%;
+    width: 97%;
+    text-align: right;
+}
+
+input[type = "button"], button{
+    height: 100%;
+    width: 100%;
+    background-color: #e0ebeb;
+    font-weight: bold;
+    color: #639c9c;
+    white-space: normal;
+}

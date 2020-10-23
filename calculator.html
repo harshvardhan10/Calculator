@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <script type="text/javascript" src = "calculator.js" ></script>
+        <link rel = "stylesheet" type = "text/css" href = "calculator.css">
+        <title> Calculator </title>
+    </head>
+    <body>
+                <table id = "display">
+                    <form name = "calc">
+                        <tr>
+                            <td><input type = "text" name = "disp" id = "disp"></td>
+                        </tr>
+                </table>
+                    <table id = "buttons">
+                        <tr>
+                            <td><input type = "button" value = "pi" onclick = "calc.disp.value += 'Math.PI'"></td>
+                            <td><input type = "button" value = "e" onclick = "calc.disp.value += 'Math.E'"></td>
+                            <td><input type = "button" value = "c" OnClick = "calc.disp.value = ''"></td>
+                            <td><input type = "button" value = "<==" OnClick = "backspace()"> </td>
+                        </tr>
+                        <tr>
+                            <td><input type = "button" value = "n!" OnClick = "calc.disp.value += '!'"></td>
+                            <td><button type = "button" OnClick = "calc.disp.value += 'cp'"> Check<br>Prime </td>
+                            <td><input type = "button" value = "exp" OnClick = "calc.disp.value += 'Math.exp('"></td>
+                            <td><input type = "button" value = "mod" OnClick = "calc.disp.value += '%'"></td>
+                        </tr>
+                        <tr>
+                            <td><input type = "button" value = "(" OnClick = "calc.disp.value += '('"> </td>
+                            <td><input type = "button" value = ")" OnClick = "calc.disp.value += ')'"></td>
+                            <td><input type = "button" value = "^" OnClick = "calc.disp.value += 'Math.pow('"></td>
+                            <td><input type = "button" value = "/" OnClick = "calc.disp.value += '/'"></td>
+                        </tr>
+                        <tr>
+                            <td><input type = "button" value = "7" OnClick = "calc.disp.value += '7'"></td>
+                            <td><input type = "button" value = "8" OnClick = "calc.disp.value += '8'"></td>
+                            <td><input type = "button" value = "9" OnClick = "calc.disp.value += '9'"></td>
+                            <td><input type = "button" value = "*" OnClick = "calc.disp.value += '*'"></td>
+                        </tr>
+                        <tr>
+                            <td><input type = "button" value = "4" OnClick = "calc.disp.value += '4'"></td>
+                            <td><input type = "button" value = "5" OnClick = "calc.disp.value += '5'"></td>
+                            <td><input type = "button" value = "6" OnClick = "calc.disp.value += '6'"></td>
+                            <td><input type = "button" value = "-" OnClick = "calc.disp.value += '-'"></td>
+                        </tr>
+                        <tr>
+                            <td><input type = "button" value = "1" OnClick = "calc.disp.value += '1'"></td>
+                            <td><input type = "button" value = "2" OnClick = "calc.disp.value += '2'"></td>
+                            <td><input type = "button" value = "3" OnClick = "calc.disp.value += '3'"></td>
+                            <td><input type = "button" value = "+" OnClick = "calc.disp.value += '+'"></td>
+                        </tr>
+                        <tr>
+                            <td><input type = "button" value = "sqrt" OnClick = "calc.disp.value += 'Math.sqrt('"></td>
+                            <td><input type = "button" value = "0" OnClick = "calc.disp.value += '0'"></td>
+                            <td><input type = "button" value = "." OnClick = "calc.disp.value += '.'"></td>
+                            <td><input type = "button" value = "=" OnClick = "result()"></td>
+                        </tr>
+                    </form>
+                </table>
+    </body>
+</html>
